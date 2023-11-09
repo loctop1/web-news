@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <button class="btn btn-sm btn-primary rounded-circle position-fixed bottom-0 end-0 translate-middle d-none"
+        onclick="scrollToTop()" id="back-to-up">
+        <i class="fa fa-arrow-up" style="font-size: 50px;" aria-hidden="true"></i>
+    </button>
+    <!-- Header -->
+    <div class="menu sticky-top">
+        <nav class="navbar-expand-lg navbar bg-primary container-fluid" data-bs-theme="dark">
+            <div class="main-menu container">
+                <a class="navbar-brand" href="/Home/Home.html" []>
+                    <img width="250px" height="90px"
+                        src="./image/Z (301 × 71 px) (301 × 80 px) (301 × 100 px) (301 × 150 px).png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav fw-bold">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/Home/Home.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="/NEWS/News.html">NEWS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="/ESPORTS/Esports.html">ESPORTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="/Anime/Anime.html">ANIME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/GIẢI TRÍ ZENZ/Genz.html">GIẢI TRÍ
+                                GENZ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="/KHÁM PHÁ/Khampha.html">KHÁM PHÁ</a>
+                        </li>
+                        <li class="nav-item">
+                            <i class="fa-solid fa-magnifying-glass fa-lg" style="color: #ffffff;"></i>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light mx-3 text-uppercase" href="#">Đăng nhập</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light mx-3 text-uppercase" href="#">Đăng ký</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Body -->
+    <div class="container my-2">
+        <nav aria-label="breadcrumb danhmuc">
+            <ol class="breadcrumb fw-bold fs-2">
+                <li class="breadcrumb-item">
+                    <a href="/Home/Home.html" class="text-decoration-none">Trang chủ</a>
+                </li>
+                <li class="breadcrumb-item" aria-current="page">
+                    <a href="/GIẢI TRÍ ZENZ/Genz.html" class="text-decoration-none">Giải trí GenZ
+                    </a>
+                </li>
+            </ol>
+        </nav>
+        <div class="row">
+            <div class="col-md-6">
+                <img width="100%"
+                    src="./image/Image1/nam-phu-tet-o-lang-dia-nguc-gay-bao-voi-ngoai-hinh-cuc-pham-du-lam-lem-bun-dat-van-khong-bi-dim-hang-174400.jpg"
+                    alt="">
+                <h2 class="my-2 text-dark fw-bold">
+                    Nam phụ Tết Ở Làng Địa Ngục 'gây bão' với ngoại hình cực phẩm, dù lấm lem bùn đất vẫn không bị 'dìm
+                    hàng'
+                </h2>
+                <p style="font-weight: 400;" class="text-dark fs-5">
+                    Nhân vật cậu Đức trong bộ phim kinh dị 'Tết Ở Làng Địa Ngục' được CĐM khen ngợi hết lời vì ngoại
+                    hình điển trai cùng nụ cười tỏa nắng.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img width="100%"
+                            src="./image/Image1/co-giao-9x-gay-bao-mxh-voi-nhan-sac-tua-than-tien-ty-ty-di-day-chi-dien-ao-dai-ma-van-cuon-hut-215731.webp"
+                            alt="">
+                        <p class="fw-bold fs-6 my-2">
+                            Cô giáo 9x 'gây bão' MXH với nhan sắc tựa 'Thần tiên tỷ tỷ', đi dạy chỉ diện áo dài mà vẫn
+                            cuốn hút
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <img width="100%"
+                            src="./image/Image1/tiktoker-duoc-vi-nhu-tien-nu-bo-filter-ao-dieu-lo-nhan-sac-that-khien-fan-ha-hoc-090825.webp"
+                            alt="">
+                        <p class="fw-bold fs-6 my-2">
+                            Tiktoker được ví như 'tiên nữ', bỏ filter ảo diệu lộ nhan sắc thật khiến fan há hốc
+                        </p>
+                    </div>
+                </div>
+                <div class="row my-3">
+                    <div class="col-md-6">
+                        <img width="100%"
+                            src="./image/Image1/ban-trai-hoa-hau-y-nhi-dap-tan-tin-don-chia-tay-bang-mot-cau-noi-chuan-ban-trai-quoc-dan-232507.webp"
+                            alt="">
+                        <p class="fw-bold fs-6 my-2">
+                            Bạn trai Hoa hậu Ý Nhi 'đập tan' tin đồn chia tay bằng một câu nói chuẩn 'Bạn trai quốc dân'
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <img width="100%"
+                            src="./image/Image1/dan-tinh-lung-suc-info-co-gai-day-boi-hot-nhat-mxh-chi-nhan-hoc-vien-tren-1m7-105718.webp"
+                            alt="">
+                        <p class="fw-bold fs-6 my-2">
+                            Dân tình lùng sục infor cô gái dạy bơi HOT nhất MXH: Chỉ nhận học viên trên 1m7
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Body 2 -->
+    <div class="container">
+        <div class="trending">
+            <i class="fa-solid fa-arrow-trend-up fa-2xl" style="color:#0d6efd;"></i> TRENDING TAG:
+            <button type="button" class="btn btn-primary mb-3">
+                Mẹo chơi game
+            </button>
+            <button type="button" class="btn btn-secondary mb-3">
+                Streamer
+            </button>
+            <button type="button" class="btn btn-success mb-3">
+                Bí ẩn game
+            </button>
+            <button type="button" class="btn btn-danger mb-3">
+                Showbiz
+            </button>
+            <button type="button" class="btn btn-warning mb-3">
+                Mới nhất
+            </button>
+            <button type="button" class="btn btn-info mb-3">
+                Genshin
+            </button>
+            <button type="button" class="btn btn-warning mb-3">
+                Công nghệ
+            </button>
+            <button type="button" class="btn btn-info mb-3">
+                Độ MiXi
+            </button>
+        </div>
+    </div>
+    <div class="container">
+        <img width="100%" src="./image/BG-Website-2.png" alt="">
+        <p class="text-center" style="color:#777;">Quảng cáo của Google</p>
+    </div>
+    <div class="container my-3 body3">
+        <div class="row">
+            <div class="col-md-8">
+                <i class="fa-solid fa-chart-line" style="color:#0d6efd;"></i> TIN TỨC GIẢI TRÍ GENZ
+                <br>
+                <img class="my-2" width="100%"
+                    src="./image/Image1/su-that-sau-doan-video-shipper-thai-bay-sang-singapore-de-mua-com-cho-khach-003929.webp"
+                    alt="">
+                <h2 class="my-2 text-dark fw-bold">
+                    Sự thật sau đoạn video shipper Thái bay sang Singapore để mua cơm cho khách
+                </h2>
+                <p style="font-weight: 400;" class="text-dark fs-6">
+                    Một đoạn video ghi lại cảnh shipper người Thái Lan bay sang tận Singapore để mua cơm gà theo đặt
+                    hàng của khách trên ứng dụng đang khiến CĐM không khỏi xôn xao.
+                </p>
+                <hr style="color: black;">
+                <div class="row text-dark my-2 d-flex align-items-center">
+                    <div class="col-md-5">
+                        <img width="100%" height="230px"
+                            src="./image/Image1/nu-sinh-vien-21-tuoi-cong-khai-bi-quyet-mua-nha-tien-ty-giua-thanh-pho-lon-001240.webp"
+                            alt="">
+                    </div>
+                    <div class="col-md-7">
+                        <p class="fs-4">Nữ sinh viên 21 tuổi công khai bí quyết mua nhà tiền tỷ giữa thành phố lớn</p>
+                        <p class="text-danger" style="font-size: 15px;color: #777;">
+                            Netizen - 03/11/2023, 00:07
+                        </p>
+                        <div style="font-size: 20px;font-weight: 400;">
+                            Ở tuổi 21, nữ sinh viên đã mua nhà, sở hữu cơ ngơi mà bao người ao ước. Cô cũng không ngần
+                            ngại chia sẻ bí quyết của mình để đạt được mục tiêu lớn này.
+                        </div>
+                    </div>
+                </div>
+                <hr style="color: black;">
+                <div class="row text-dark d-flex align-items-center">
+                    <div class="col-md-5">
+                        <img width="100%" height="230px"
+                            src="./image/Image1/dj-mie-chan-ho-bao-danh-up-loat-anh-nhu-nang-tho-vong-eo-sieu-thuc-gay-tram-tro-134211.jpg"
+                            alt="">
+                    </div>
+                    <div class="col-md-7">
+                        <p class="fs-4">
+                            DJ Mie chán hở bạo, 'đánh úp' loạt ảnh như nàng thơ: Vòng eo siêu thực chiếm trọn spotlight
+                        </p>
+                        <p class="text-danger" style="font-size: 15px;color: #777;">
+                            Sao GenZ - 02/11/2023, 22:30
+                        </p>
+                        <div style="font-size: 20px;font-weight: 400;">
+                            DJ Mie được ví như "tắc kè hoa" khi biến hóa đa dạng trong nhiều tạo hình từ gợi cảm đến
+                            ngọt ngào tựa nàng thơ. Mỗi lần xuất hiện đều khiến dân tình say nắng.
+                        </div>
+                    </div>
+                </div>
+                <hr style="color: black;">
+                <div class="row text-dark d-flex align-items-center">
+                    <div class="col-md-5">
+                        <img width="100%" height="230px"
+                            src="./image/Image1/miss-universe-2023-bui-quynh-hoa-xuat-ngoai-giua-thi-phi-de-trang-tay-vi-175233.webp"
+                            alt="">
+                    </div>
+                    <div class="col-md-7">
+                        <p class="fs-4">
+                            Xuất ngoại giữa thị phi, Bùi Quỳnh Hoa đứng trước nguy cơ 'tay trắng' tại Miss Universe 2023
+                        </p>
+                        <p class="text-danger" style="font-size: 15px;color: #777;">
+                            Sao GenZ - 02/11/2023, 20:59
+                        </p>
+                        <div style="font-size: 20px;font-weight: 400;">
+                            Tại Miss Universe 2023, Bùi Quỳnh Hoa rơi vào "thế khó" khi phải đối đầu với hàng loạt thí
+                            sinh nặng ký, vừa chịu một phần áp lực vì loạt ồn ào diễn ra trong nước.
+                        </div>
+                    </div>
+                </div>
+                <hr style="color: black;">
+                <div class="row text-dark d-flex align-items-center">
+                    <div class="col-md-5">
+                        <img width="100%" height="230px"
+                            src="./image/Image1/quy-tu-thu-3-nha-beckham-dan-dau-bxh-thanh-nien-doc-than-quyen-ru-nhat-xu-suong-mu-104937.webp"
+                            alt="">
+                    </div>
+                    <div class="col-md-7">
+                        <p class="fs-4">Quý tử thứ 3 nhà Beckham dẫn đầu BXH thanh niên độc thân quyến rũ nhất xứ sương
+                            mù
+                            sợ dừng chân từ sớm</p>
+                        <p class="text-danger" style="font-size: 15px;color: #777;">
+                            Giải trí GenZ - 02/11/2023, 20:41
+                        </p>
+                        <div style="font-size: 20px;font-weight: 400;">
+                            Thừa hưởng những nét đẹp từ cha và mẹ của mình cũng như sở hữu tài năng đặc biệt, quý tử thứ
+                            3 nhà Beckham dẫn đầu trong số 10 thanh niên độc thân hấp dẫn nhất tại Anh.
+                        </div>
+                    </div>
+                </div>
+                <hr style="color: black;">
+                <div class="row text-dark d-flex align-items-center">
+                    <div class="col-md-5">
+                        <img width="100%" height="230px"
+                            src="./image/Image1/doc-la-gioi-tre-trung-quoc-ru-nhau-cung-nghi-viec-lai-con-to-chuc-tiec-linh-dinh-nhu-dam-cuoi-191929.webp"
+                            alt="">
+                    </div>
+                    <div class="col-md-7">
+                        <p class="fs-4">Độc lạ giới trẻ Trung Quốc: Rủ nhau cùng nghỉ việc lại còn tổ chức tiệc linh
+                            đình như đám cưới
+                        </p>
+                        <p class="text-danger" style="font-size: 15px;color: #777;">
+                            Netizen - 02/11/2023, 19:14
+                        </p>
+                        <div style="font-size: 20px;font-weight: 400;">
+                            Giới trẻ Trung Quốc đang rủ nhau nghỉ việc hàng loạt vì lương thấp và không chịu được áp
+                            lực. Không chỉ vậy, họ còn mở tiệc ăn mừng cùng bạn bè rất linh đình.
+                        </div>
+                    </div>
+                </div>
+                <hr style="color: black;">
+                <div class="row text-dark d-flex align-items-center">
+                    <div class="col-md-5">
+                        <img width="100%" height="230px"
+                            src="./image/Image1/addison-rae--tiktoker-kiem-nhieu-tien-nhat-the-gioi-song-ra-sao-sau-4-nam-gay-sot-183656.webp"
+                            alt="">
+                    </div>
+                    <div class="col-md-7">
+                        <p class="fs-4">
+                            Addison Rae - Tiktoker kiếm nhiều tiền nhất thế giới sống ra sao sau 4 năm gây sốt?
+                        </p>
+                        <p class="text-danger" style="font-size: 15px;color: #777;">
+                            Tiktok GenZ - 02/11/2023, 19:10
+                        </p>
+                        <div style="font-size: 20px;font-weight: 400;">
+                            Cuộc sống của Addison Rae - Tiktoker kiếm nhiều tiền nhất thế giới nhận được quan tâm của
+                            cộng động mạng. Cô duy trì ảnh hưởng lớn trong giới trẻ.
+                        </div>
+                    </div>
+                </div>
+                <hr style="color: black;">
+                <div class="row text-dark d-flex align-items-center">
+                    <div class="col-md-5">
+                        <img width="100%" height="230px"
+                            src="./image/Image1/hong-thanh--dj-mie-nghi-toang-tinh-cam-dan-tinh-vach-chung-cu-chinh-chu-noi-gi-164332.webp"
+                            alt="">
+                    </div>
+                    <div class="col-md-7">
+                        <p class="fs-4">Hồng Thanh - DJ Mie nghi 'toang' tình cảm, dân tình vạch chứng cứ: Chính chủ nói
+                            gì?
+                        </p>
+                        <p class="text-danger" style="font-size: 15px;color: #777;">
+                            Sao GenZ - 02/11/2023, 17:40
+                        </p>
+                        <div style="font-size: 20px;font-weight: 400;">
+                            Hồng Thanh - DJ Mie liên tục vướng tin đồn chia tay sau 3 năm gắn bó mặn nồng. Dân tình hiện
+                            đang nóng lòng chờ phản hồi chính thức từ phía chính chủ.
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="text-center">
+                    <button type="button" class="btn btn-outline btn-primary btn-lg fw-bold">Trang 1</button>
+                    <button type="button" class="btn btn-outline btn-white btn-lg fw-bold">Trang sau</button>
+                </div>
+                <br>
+            </div>
+            <div class="col-md-4">
+                <i class="fa-solid fa-chart-column" style="color:#0d6efd;"></i> XEM NHIỀU NHẤT
+                <img class="my-2" width="100%"
+                    src="/NEWS/image/Image1/lmht-top-nhung-vi-tuong-co-the-xoay-chuyen-cuc-dien-trong-giao-tranh-tong-144401.webp"
+                    alt="">
+                <p class="fs-4 text-dark">
+                    LMHT: Top những vị tướng có thể xoay chuyển cục diện trong giao tranh tổng
+                </p>
+                <p class="text-danger" style="font-size: 15px;color: #777;">
+                    Esports 06/11/2023 - 14:28
+                </p>
+                <div style="font-size: 15px;font-weight: 400;color: black;">
+                    Trong LMHT, có những vị tướng sở hữu những kĩ năng có thể xoay chuyển cục diện của một pha giao
+                    tranh lớn và ảnh hưởng đến kết quả trận đấu trong những thời khắc quan trọng.
+                </div>
+                <hr style="color: black;">
+                <div class="row text-dark my-3 d-flex align-items-center">
+                    <div class="col">
+                        <img width="100%"
+                            src="/NEWS/image/Image1/dragon-ball-mot-hinh-thuc-bien-the-sieu-hiem-ma-goku-chi-dung-duy-nhat-mot-lan-111815.webp"
+                            alt="">
+                    </div>
+                    <div class="col fs-6">
+                        Dragon Ball: Một 'hình thức biến thể' siêu hiếm mà Goku chỉ dùng duy nhất một lần
+                    </div>
+                </div>
+                <hr style="color: black;">
+                <div class="row text-dark my-3 d-flex align-items-center">
+                    <div class="col">
+                        <img width="100%"
+                            src="/NEWS/image/Image1/anime-puella-magi-madoka-magica-walpurgisnacht-rising-se-ra-mat-vao-2024-000911.webp"
+                            alt="">
+                    </div>
+                    <div class="col fs-6">
+                        Anime Puella Magi Madoka Magica: Walpurgisnacht Rising sẽ ra mắt vào 2024
+                    </div>
+                </div>
+                <hr style="color: black;">
+                <div class="row text-dark my-3 d-flex align-items-center">
+                    <div class="col">
+                        <img width="100%"
+                            src="/NEWS/image/Image1/naruto-chi-mot-nhan-vat-co-the-hien-thuc-hoa-giac-mo-tu-tsukuyomi-vo-han-174927.webp"
+                            alt="">
+                    </div>
+                    <div class="col fs-6">
+                        Naruto: Chỉ một nhân vật có thể 'hiện thực hóa' giấc mơ từ Tsukuyomi Vô Hạn
+                    </div>
+                </div>
+                <hr style="color: black;">
+                <div class="row text-dark my-3 d-flex align-items-center">
+                    <div class="col">
+                        <img width="100%"
+                            src="/NEWS/image/Image1/jujutsu-kaisen-lam-the-nao-de-yuji-itadori-nang-cao-ky-nang-nguyen-rua-va-tro-thanh-chu-thuat-su-dinh-cao-104620.webp"
+                            alt="">
+                    </div>
+                    <div class="col fs-6">
+                        Jujutsu Kaisen: Làm thế nào để Yuji Itadori nâng cao kỹ năng nguyền rủa và trở thành chú thuật
+                        sư đỉnh cao?
+                    </div>
+                </div>
+                <hr style="color: black;">
+                <div class="row text-dark my-3 d-flex align-items-center">
+                    <div class="col">
+                        <img width="100%"
+                            src="/NEWS/image/Image1/one-punch-man-5-lan-saitama-lam-thanh-nien-nghiem-tuc-163028.webp"
+                            alt="">
+                    </div>
+                    <div class="col fs-6">
+                        One Punch Man: 5 lần Saitama làm 'thanh niên nghiêm túc'
+                    </div>
+                </div>
+                <hr style="color: black;">
+                <div class="row text-dark my-3 d-flex align-items-center">
+                    <div class="col">
+                        <img width="100%"
+                            src="/NEWS/image/Image1/tl-dtcl-top-3-gan-nhu-bien-mat-khoi-meta-vi-bi-nerf-qua-nang-074006.webp"
+                            alt="">
+                    </div>
+                    <div class="col fs-6">
+                        ĐTCL: Top 3 đội hình gần như biến mất khỏi meta vì bị nerf quá nặng
+                    </div>
+                </div>
+                <hr style="color: black;">
+                <div class="row text-dark my-3 d-flex align-items-center">
+                    <div>
+                        <img width="100%" height="420px"
+                            src="./image/358556641_666064348886633_6348798008228505668_n.jpg" alt="">
+                        <p class="text-center" style="color:#777; font-size: 15px;">Quảng cáo của Google</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container body3">
+        <i class="fa-solid fa-chart-line" style="color:#0d6efd;"></i> TREND GENZ
+        <div class="row my-3">
+            <div class="col-md-4">
+                <img class="my-2" width="100%"
+                    src="./image/Image1/ngan-ngo-truoc-nhan-sac-thoat-tuc-cua-bup-be-nga-dasha-taran-tren-pho-thuong-hai-113033.jpg"
+                    alt="">
+                <h3 class="text-dark my-2">Ngẩn ngơ trước nhan sắc của 'búp bê Nga' Dasha Taran trên phố
+                    Thượng Hải
+                    ASIAD</h3>
+                <p class="text-danger" style="font-size: 15px;color: #777;">
+                    Trend GenZ - 02/11/2023, 10:56
+                </p>
+                <div style="color: black;font-size: 18px;font-weight: 400;">
+                    Mặc dù diện đồ vô cùng đơn giản nhưng nhan sắc thoát tục của 'búp bê Nga' Dasha Taran lại khiến
+                    người đi đường ngẩn ngơ không rời mắt.
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="my-2" width="100%"
+                    src="./image/Image1/nu-streamer-xu-han-gay-soc-voi-tieu-chuan-chon-chong-phai-co-thu-nhap-hon-44-ty--nam-110830.webp"
+                    alt="">
+                <h3 class="text-dark my-2">Nữ streamer xứ Hàn gây 'sốc' với tiêu chuẩn chọn chồng: Phải có số dư tài
+                    khoản ít nhất 44 tỷ</h3>
+                <p class="text-danger" style="font-size: 15px;color: #777;">
+                    Trend GenZ - 30/10/2023, 10:53
+                </p>
+                <div style="color: black;font-size: 18px;font-weight: 400;">
+                    Một nữ streamer xinh đẹp và nổi tiếng xứ Hàn gây 'sốc' khi đưa ra điều kiện sẽ chỉ kết hôn khi bạn
+                    trai của cô sở hữu tài khoản có số dư hàng chục tỷ đồng.
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="my-2" width="100%"
+                    src="./image/Image1/tan-chay-truoc-loat-hinh-cosplay-cua-cac-meo-dang-cap-quang-thuong-la-day-153641.webp"
+                    alt="">
+                <h3 class="text-dark my-2">Đẳng cấp 'quàng thượng' là đây, cosplay anime đáng yêu không kém gì coser
+                    chuyên nghiệp
+                </h3>
+                <p class="text-danger" style="font-size: 15px;color: #777;">
+                    Trend GenZ - 27/10/2023, 07:30
+                </p>
+                <div style="color: black;font-size: 18px;font-weight: 400;">
+                    Không chỉ những người yêu thích game và anime có những màn cosplay đẹp mắt mà ngay cả các "quàng
+                    thượng" mèo cũng có nhiều màn lên đồ đầy ấn tượng.
+                </div>
+            </div>
+        </div>
+        <div class="row my-4">
+            <div class="col-md-4">
+                <img class="my-2" width="100%"
+                    src="./image/Image1/kho-tin-vao-mat-truoc-man-cosplay-ahri-sieu-huyen-ao-cua-coser-viet-212418.webp"
+                    alt="">
+                <h3 class="text-dark my-2">Ấn tượng với màn cosplay Ahri của nữ coser Việt: 'Chỉ cần E là Flash tới'
+                </h3>
+                <p class="text-danger" style="font-size: 15px;color: #777;">
+                    Trend GenZ - 06/10/2023, 10:28
+                </p>
+                <div style="color: black;font-size: 18px;font-weight: 400;">
+                    Cosplay thành cô nàng Ahri gợi cảm, nữ coser Việt khiến cộng đồng LMHT phải dành nhiều lời khen ngợi
+                    cho màn biến hóa cực đầu tư và đầy ấn tượng này.
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="my-2" width="100%"
+                    src="./image/Image1/me-man-man-cosplay-herta-cua-honkai-star-rail-dep-sieu-thuc-cu-ngo-san-pham-cua-ai-142947.webp"
+                    alt="">
+                <h3 class="text-dark my-2">Mê mẩn màn cosplay Herta của Honkai Star Rail đẹp siêu thực: Cứ ngỡ sản phẩm
+                    của AI
+                </h3>
+                <p class="text-danger" style="font-size: 15px;color: #777;">
+                    Trend GenZ - 05/10/2023, 15:04
+                </p>
+                <div style="color: black;font-size: 18px;font-weight: 400;">
+                    Màn cosplay Herta của Honkai Star Rail của Akase Akari nhanh chóng nhận được sự chú ý bởi vẻ đẹp
+                    lung linh, huyền ảo mà nữ coser này thả hồn vào nhân vật đang bị lãng quên này.
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="my-2" width="100%"
+                    src="./image/Image1/cuc-an-toan-thong-tin-canh-bao-ve-cac-ung-dung-chinh-anh-anime-gay-sot-hien-nay-180610.jpg"
+                    alt="">
+                <h3 class="text-dark my-2">Cục An toàn thông tin cảnh báo về các ứng dụng chỉnh ảnh anime gây sốt hiện
+                    nay</h3>
+                <p class="text-danger" style="font-size: 15px;color: #777;">
+                    Trend GenZ - 07/09/2023, 17:03
+                </p>
+                <div style="color: black;font-size: 18px;font-weight: 400;">
+                    Theo các chuyên gia, ứng dụng chỉnh ảnh anime đang gây sốt mạng xã hội hiện tiềm ẩn nhiều rủi ro,
+                    người sử dụng cần đặc biệt cẩn trọng khi cài ứng dụng này trong máy.
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <button type="button" class="btn btn-outline btn-primary btn-lg fw-bold">
+                Xem thêm <i class="fa-solid fa-right-long" style="color: #ffffff;"></i>
+            </button>
+        </div>
+        <br>
+    </div>
+
+    <div class="container body3">
+        <i class="fa-solid fa-chart-line" style="color:#0d6efd;"></i> TIKTOK GENZ
+        <div class="row my-3">
+            <div class="col-md-4">
+                <img class="my-2" width="100%"
+                    src="./image/Image1/co-giao-9x-gay-bao-mxh-voi-nhan-sac-tua-than-tien-ty-ty-di-day-chi-dien-ao-dai-ma-van-cuon-hut-215731.webp"
+                    alt="">
+                <h3 class="text-dark my-2">Cô giáo 9x 'gây bão' MXH với nhan sắc tựa 'Thần tiên', đi dạy chỉ diện
+                    áo dài mà vẫn cuốn hút</h3>
+                <p class="text-danger" style="font-size: 15px;color: #777;">
+                    Tiktok GenZ - 06/11/2023, 10:29
+                </p>
+                <div style="color: black;font-size: 18px;font-weight: 400;">
+                    Không chỉ sở hữu ngoại hình xinh đẹp, cô giáo 9x này còn khiến CĐM bất ngờ với sở thích diện áo dài
+                    đi dạy cả tuần mà chẳng bao giờ 'đụng hàng'.
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="my-2" width="100%"
+                    src="./image/Image1/tiktoker-duoc-vi-nhu-tien-nu-bo-filter-ao-dieu-lo-nhan-sac-that-khien-fan-ha-hoc-090825.webp"
+                    alt="">
+                <h3 class="text-dark my-2">Tiktoker được ví như 'tiên nữ', bỏ filter ảo diệu lộ nhan sắc thật khiến fan
+                    há hốc</h3>
+                <p class="text-danger" style="font-size: 15px;color: #777;">
+                    Tiktok GenZ - 03/11/2023, 12:46
+                </p>
+                <div style="color: black;font-size: 18px;font-weight: 400;">
+                    Tiktoker Bành Thập Lục được mệnh danh là "thần tiên tỷ tỷ" mỗi khi xuất hiện trên MXH. Rời xa "bộ
+                    lọc ảo diệu", visual khiến ai nấy trầm trồ hơn.
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="my-2" width="100%"
+                    src="./image/Image1/addison-rae--tiktoker-kiem-nhieu-tien-nhat-the-gioi-song-ra-sao-sau-4-nam-gay-sot-183656.webp"
+                    alt="">
+                <h3 class="text-dark my-2">Addison Rae - Tiktoker kiếm nhiều tiền nhất thế giới sống ra sao sau 4 năm
+                    gây sốt?
+                </h3>
+                <p class="text-danger" style="font-size: 15px;color: #777;">
+                    Tiktok GenZ - 02/11/2023, 19:10
+                </p>
+                <div style="color: black;font-size: 18px;font-weight: 400;">
+                    Cuộc sống của Addison Rae - Tiktoker kiếm nhiều tiền nhất thế giới nhận được quan tâm của cộng động
+                    mạng. Cô duy trì ảnh hưởng lớn trong giới trẻ.
+                </div>
+            </div>
+        </div>
+        <div class="row my-4">
+            <div class="col-md-4">
+                <img class="my-2" width="100%"
+                    src="./image/Image1/phat-sot-truoc-tu-do-toan-vay-ao-ti-hon-cua-ciin-khong-ngai-pho-diem-an-tien-tren-co-the-150101.jpg"
+                    alt="">
+                <h3 class="text-dark my-2">Tủ đồ toàn váy áo 'tí hon' của TikToker CiiN, phô điểm 'ăn tiền' trên cơ thể
+                    2024 với skin SS mới</h3>
+                <p class="text-danger" style="font-size: 15px;color: #777;">
+                    Tiktok GenZ - 01/11/2023, 17:15
+                </p>
+                <div style="color: black;font-size: 18px;font-weight: 400;">
+                    TikToker CiiN - Bùi Thảo Ly chuộng những thiết kế kiệm vải, phô diễn hình thể 'đẹp như tạc tượng'
+                    khiến dân tình không thể rời mắt. Hễ đăng ảnh lại gây sốt mạng xã hội.
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="my-2" width="100%"
+                    src="./image/Image1/gam-kami-lan-dau-choi-lon-mua-mon-an-cua-gioi-nha-giau-mung-sinh-nhat-me-142800.webp"
+                    alt="">
+                <h3 class="text-dark my-2">Gấm Kami lần đầu chơi lớn, mua món ăn của giới nhà giàu mừng sinh nhật mẹ
+                </h3>
+                <p class="text-danger" style="font-size: 15px;color: #777;">
+                    Tiktok GenZ - 20/04/2023, 14:47
+                </p>
+                <div style="color: black;font-size: 18px;font-weight: 400;">
+                    Hiếm hoi chia sẻ về cuộc sống riêng tư đặc biệt là nói về mẹ nhân dịp đặc biệt, Gấm Kami khiến người
+                    xem vừa thích thú, vừa cảm thấy xúc động.
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="my-2" width="100%"
+                    src="./image/Image1/bi-xoai-non-ep-quay-tik-tok-xemesis-co-bieu-cam-gay-sot-mang-154430.webp"
+                    alt="">
+                <h3 class="text-dark my-2">Bị Xoài Non 'ép' quay Tik Tok, Xemesis có biểu cảm gây sốt mạng</h3>
+                <p class="text-danger" style="font-size: 15px;color: #777;">
+                    Tiktok GenZ - 06/04/2023, 16:01
+                </p>
+                <div style="color: black;font-size: 18px;font-weight: 400;">
+                    Sau 3 năm kết hôn, hành trình tìm con của Xoài Non và Xemesis còn khá gian nan thế nhưng cặp đôi vẫn
+                    vui vẻ tận hưởng cuộc sống hôn nhân viên mãn, hạnh phúc.
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <button type="button" class="btn btn-outline btn-primary btn-lg fw-bold">
+                Xem thêm <i class="fa-solid fa-right-long" style="color: #ffffff;"></i>
+            </button>
+        </div>
+        <br>
+    </div>
+    <!-- Footer -->
+    <div class="container-fluid footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img width="90%" height="auto"
+                        src="./image/Z (301 × 71 px) (301 × 80 px) (301 × 100 px) (301 × 150 px).png" alt="">
+                    <p class="fs-6">
+                        TechZenz là nguồn tin đáng tin cậy dành cho tất cả những ai đam mê sự phát triển không ngừng
+                        của
+                        công nghệ. Chúng tôi cam kết mang đến cho bạn những bản tin nhanh nhất về các sản phẩm và xu
+                        hướng mới, cùng với những bài phân tích sâu sắc và đánh giá chất lượng.
+                    </p>
+                </div>
+                <div class="col-md-3 my-2">
+                    Về chúng tôi
+                    <p class="fs-6">
+                        Địa chỉ: 105 Thụy Khuê, Tây Hồ, Hà Nội
+                        <br>
+                        Email: loc2003k22@gmail.com
+                        <br>
+                        Giờ làm việc: 08H – 20H Tất cả các ngày trong tuần
+                        <br>
+                        Theo dõi Techzenz tại:
+                        <br>
+                        <i class="fa-brands fa-facebook fa-2xl my-4" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-facebook-messenger fa-2xl" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-youtube fa-2xl" style="color: #ffffff;"></i>
+                    </p>
+                </div>
+                <div class="col-md-3 my-2">
+                    Liên hệ quảng cáo
+                    <p class="fs-6">
+                        Hotline: 0918211965
+                        <br>
+                        Email: loc2003k22@gmail.com
+                        <br>
+                        Hỗ trợ & CSKH:105 Thụy Khuê, Tây Hồ, Hà Nội
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.7613856276735!2d105.8223590759184!3d21.042231487314545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab08e6f12cc7%3A0x9fd4121c1b27fcea!2zMTA1IMSQLiBUaOG7pXkgS2h1w6osIFRodeG7tSBLaHXDqiwgVMOieSBI4buTLCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1698333285525!5m2!1svi!2s"
+                            width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </p>
+                </div>
+                <div class="col-md-3 my-2">
+                    Theo dõi
+                    <p class="fs-6">
+                        Theo dõi Techzenz để cập nhật tin tức Game và Esports mới nhất
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

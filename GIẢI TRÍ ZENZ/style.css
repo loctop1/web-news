@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family:system-ui;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 36px;
+    font-size: 14px;
+    height: auto;
+}
+.nav-item i {
+    margin-top: 45px;
+    cursor: pointer;
+}
+.navbar-nav a {
+    margin-right: 20px; /* Điều chỉnh giá trị này để thay đổi khoảng cách giữa các thẻ <a> */
+}
+.navbar-nav a:hover {
+background-color: red;
+}
+.left-content{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0d6efd;
+}
+.middle-content{
+
+}
+.right-content{
+    font-size: 22px;
+    font-weight: bold;
+    color: #0d6efd;
+}
+.trending{
+    font-size: 25px;
+    font-weight: bold;
+    color: #0d6efd;
+}
+.body3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #0d6efd;
+}
+.footer{
+    background-color: #0d6efd;
+    height: auto;
+    color: white;
+    font-size: 30px;
+  }

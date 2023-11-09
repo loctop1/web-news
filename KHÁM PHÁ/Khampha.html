@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <button class="btn btn-sm btn-primary rounded-circle position-fixed bottom-0 end-0 translate-middle d-none"
+        onclick="scrollToTop()" id="back-to-up">
+        <i class="fa fa-arrow-up" style="font-size: 50px;" aria-hidden="true"></i>
+    </button>
+    <!-- Header -->
+    <div class="menu sticky-top">
+        <nav class="navbar-expand-lg navbar bg-primary container-fluid" data-bs-theme="dark">
+            <div class="main-menu container">
+                <a class="navbar-brand" href="/Home/Home.html" []>
+                    <img width="250px" height="90px"
+                        src="./image/Z (301 × 71 px) (301 × 80 px) (301 × 100 px) (301 × 150 px).png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav fw-bold">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/Home/Home.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="/NEWS/News.html">NEWS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="/ESPORTS/Esports.html">ESPORTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="/Anime/Anime.html">ANIME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/GIẢI TRÍ ZENZ/Genz.html">GIẢI TRÍ
+                                GENZ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="/KHÁM PHÁ/Khampha.html">KHÁM PHÁ</a>
+                        </li>
+                        <li class="nav-item">
+                            <i class="fa-solid fa-magnifying-glass fa-lg" style="color: #ffffff;"></i>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light mx-3 text-uppercase" href="#">Đăng nhập</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light mx-3 text-uppercase" href="#">Đăng ký</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Body -->
+    <div class="container my-2">
+        <nav aria-label="breadcrumb danhmuc">
+            <ol class="breadcrumb fw-bold fs-2">
+                <li class="breadcrumb-item">
+                    <a href="/Home/Home.html" class="text-decoration-none">Trang chủ</a>
+                </li>
+                <li class="breadcrumb-item" aria-current="page">
+                    <a href="/KHÁM PHÁ/Khampha.html" class="text-decoration-none">Khám phá
+                    </a>
+                </li>
+            </ol>
+        </nav>
+        <div class="row">
+            <div class="col-md-6">
+                <img width="100%"
+                    src="./image/Image1/honkai-star-rail-nhung-luat-bat-thanh-van-phai-nam-vung-khi-su-dung-gepard-154658.webp"
+                    alt="">
+                <h2 class="my-2 text-dark fw-bold">
+                    Honkai Star Rail: Những 'luật bất thành văn' phải nắm vững khi sử dụng Gepard
+                </h2>
+                <p style="font-weight: 400;" class="text-dark fs-5">
+                    Có những mẹo khi sử dụng Gepard mà game thủ Honkai Star Rail cần phải đặc biệt chú ý để tránh việc
+                    Gepard sẽ bị ''phế'' trong chiến đấu.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img width="100%"
+                            src="./image/Image1/lien-quan-mobile-tulen-phai-chay-tut-quan-khi-gap-5-tuong-sau-205741.jpg"
+                            alt="">
+                        <p class="fw-bold fs-6 my-2">
+                            Liên Quân Mobile: Tulen phải 'chạy tụt quần' khi gặp 5 tướng sau
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <img width="100%"
+                            src="./image/Image1/honkai-star-rail-3-doi-hinh-vuot-vu-tru-mo-phong-manh-nhat-danh-cho-topaz-000712.webp"
+                            alt="">
+                        <p class="fw-bold fs-6 my-2">
+                            Honkai Star Rail: 3 đội hình vượt Vũ Trụ Mô Phỏng mạnh nhất dành cho Topaz
+                        </p>
+                    </div>
+                </div>
+                <div class="row my-3">
+                    <div class="col-md-6">
+                        <img width="100%"
+                            src="./image/Image1/lien-quan-mobile-5-skin-uy-tin-game-thu-cu-thay-la-co-biet-sap-co-sao-013520.webp"
+                            alt="">
+                        <p class="fw-bold fs-6 my-2">
+                            Liên Quân Mobile: 5 skin 'uy tín' game thủ cứ thấy là có biết sắp có sao
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <img width="100%"
+                            src="./image/Image1/genshin-impact-goi-y-nhung-doi-hinh-tiem-nang-nhat-de-vuot-la-hoan-42-013044.jpg"
+                            alt="">
+                        <p class="fw-bold fs-6 my-2">
+                            Genshin Impact: Gợi ý những đội hình tiềm năng nhất để vượt La Hoàn 4.2
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Body 2 -->
+    <div class="container">
+        <div class="trending">
+            <i class="fa-solid fa-arrow-trend-up fa-2xl" style="color:#0d6efd;"></i> TRENDING TAG:
+            <button type="button" class="btn btn-primary mb-3">
+                Mẹo chơi game
+            </button>
+            <button type="button" class="btn btn-secondary mb-3">
+                Streamer
+            </button>
+            <button type="button" class="btn btn-success mb-3">
+                Bí ẩn game
+            </button>
+            <button type="button" class="btn btn-danger mb-3">
+                Showbiz
+            </button>
+            <button type="button" class="btn btn-warning mb-3">
+                Mới nhất
+            </button>
+            <button type="button" class="btn btn-info mb-3">
+                Genshin
+            </button>
+            <button type="button" class="btn btn-warning mb-3">
+                Công nghệ
+            </button>
+            <button type="button" class="btn btn-info mb-3">
+                Độ MiXi
+            </button>
+        </div>
+    </div>
+    <div class="container">
+        <img width="100%" src="./image/BG-Website-2.png" alt="">
+        <p class="text-center" style="color:#777;">Quảng cáo của Google</p>
+    </div>
+    <div class="container my-3 body3">
+        <div class="row">
+            <div class="col-md-8">
+                <i class="fa-solid fa-chart-line" style="color:#0d6efd;"></i> TIN TỨC KHÁM PHÁ
+                <br>
+                <img class="my-2" width="100%"
+                    src="./image/Image1/lien-quan-mobile-nhung-sat-thu-co-the-hoa-chaos-khi-ket-hop-voi-aya-022239.webp"
+                    alt="">
+                <h2 class="my-2 text-dark fw-bold">
+                    Liên Quân Mobile: Những Sát Thủ có thể 'hoá chaos' khi kết hợp với Aya
+                </h2>
+                <p style="font-weight: 400;" class="text-dark fs-6">
+                    Aya là vị tướng Trợ Thủ cực kì nổi tiếng từ khi mới được cho ra mắt tại Liên Quân Mobile nhờ sức
+                    mạnh bá đạo. Dưới đây là những Sát Thủ ‘over hợp’ với cô nàng này tại mùa đấu S4 - 2023.
+                </p>
+                <hr style="color: black;">
+                <div class="row text-dark my-2 d-flex align-items-center">
+                    <div class="col-md-5">
+                        <img width="100%" height="230px"
+                            src="./image/Image1/lien-quan-mobile-qua-roi-thoi-bi-ghe-lanh--liliana-se-bung-no-dau-nam-2024-voi-mot-skin-bac-ss-moi-105819.webp"
+                            alt="">
+                    </div>
+                    <div class="col-md-7">
+                        <p class="fs-4">Liên Quân Mobile: Qua rồi thời 'bị ghẻ lạnh' - Liliana sẽ bùng nổ đầu năm 2024
+                            với một skin bậc SS mới</p>
+                        <p class="text-danger" style="font-size: 15px;color: #777;">
+                            Khám phá - 03/11/2023, 16:00
+                        </p>
+                        <div style="font-size: 20px;font-weight: 400;">
+                            Không chỉ 'lên kệ' skin thắng giải thiết kế vào năm sau, Liliana cũng sẽ đồng thời ra mắt
+                            một trang phục bậc SS mới cho mình trong Liên Quân Mobile.
+                        </div>
+                    </div>
+                </div>
+                <hr style="color: black;">
+                <div class="row text-dark d-flex align-items-center">
+                    <div class="col-md-5">
+                        <img width="100%" height="230px"
+                            src="./image/Image1/lmht-gamer-phan-nan-vi-riot-games-mai-khong-chiu-nerf-orianna-145527.webp"
+                            alt="">
+                    </div>
+                    <div class="col-md-7">
+                        <p class="fs-4">
+                            LMHT: Gamer phàn nàn vì Riot Games mãi không chịu nerf Orianna
+                        </p>
+                        <p class="text-danger" style="font-size: 15px;color: #777;">
+                            Khám phá - 03/11/2023, 14:50
+                        </p>
+                        <div style="font-size: 20px;font-weight: 400;">
+                            Nhờ lối chơi cực mạnh và vô cùng phù hợp với meta mà Orianna nhanh chóng trở thành 'hot
+                            pick' tại CKTG 2023 và xếp hạng đơn trong LMHT.
+                        </div>
+                    </div>
+                </div>
+                <hr style="color: black;">
+                <div class="row text-dark d-flex align-items-center">
+                    <div class="col-md-5">
+                        <img width="100%" height="230px"
+                            src="./image/Image1/lien-quan-mobile-top-5-tuong-khac-che-elsu-hieu-qua-o-meta-hien-tai-204926.webp"
+                            alt="">
+                    </div>
+                    <div class="col-md-7">
+                        <p class="fs-4">
+                            Liên Quân Mobile: Top 5 tướng khắc chế Elsu hiệu quả ở meta hiện tại
+                        </p>
+                        <p class="text-danger" style="font-size: 15px;color: #777;">
+                            Khám phá - 03/11/2023, 14:00
+                        </p>
+                        <div style="font-size: 20px;font-weight: 400;">
+                            Khắc chế Elsu trong Liên Quân Mobile sẽ không còn là điều khó khăn cho các anh em khi lựa
+                            chọn một trong năm tướng được MGN.vn gợi ý bên dưới đây.
+                        </div>
+                    </div>
+                </div>
+                <hr style="color: black;">
+                <div class="row text-dark d-flex align-items-center">
+                    <div class="col-md-5">
+                        <img width="100%" height="230px"
+                            src="./image/Image1/lien-quan-mobile-ngay-veres-thoat-ken-sap-den-se-duoc-buff-hau-ra-mat-skin-sss-112301.webp"
+                            alt="">
+                    </div>
+                    <div class="col-md-7">
+                        <p class="fs-4">Liên Quân Mobile: Ngày Veres 'thoát kén' sắp đến, sẽ được buff hậu ra mắt skin
+                            SSS?</p>
+                        <p class="text-danger" style="font-size: 15px;color: #777;">
+                            Khám phá - 03/11/2023, 12:00
+                        </p>
+                        <div style="font-size: 20px;font-weight: 400;">
+                            Từng là Đấu Sĩ đa năng bậc nhất Liên Quân Mobile nhưng thời gian qua Veres khá 'flop'. Nhưng
+                            không sao, vấn đề sẽ sớm được khắc phục nhờ ra mắt skin cao cấp mới.
+                        </div>
+                    </div>
+                </div>
+                <hr style="color: black;">
+                <div class="row text-dark d-flex align-items-center">
+                    <div class="col-md-5">
+                        <img width="100%" height="230px"
+                            src="./image/Image1/cua-hang-tranh-thu-an-theo-diablo-ban-60-trieu-moi-cai-mat-na-van-chay-hang-085651.jpg"
+                            alt="">
+                    </div>
+                    <div class="col-md-7">
+                        <p class="fs-4">Cửa hàng tranh thủ ăn theo Diablo, bán 60 triệu mỗi cái mặt nạ vẫn cháy hàng
+                        </p>
+                        <p class="text-danger" style="font-size: 15px;color: #777;">
+                            Bí ẩn game - 03/11/2023, 11:36
+                        </p>
+                        <div style="font-size: 20px;font-weight: 400;">
+                            Câu chuyện đằng sau chiếc mặt nạ này là gì và tại sao nó đã gây sốt với giá trị lên đến 60
+                            triệu. Bạn đã sẵn lòng bước vào thế giới Diablo 4 chưa?
+                        </div>
+                    </div>
+                </div>
+                <hr style="color: black;">
+                <div class="row text-dark d-flex align-items-center">
+                    <div class="col-md-5">
+                        <img width="100%" height="230px"
+                            src="./image/Image1/geng-dong-tinh-ve-ly-do-kho-tin-cua-t1-ve-viec-khong-the-tap-luyen-cho-vong-loai-cktg-203128.webp"
+                            alt="">
+                    </div>
+                    <div class="col-md-7">
+                        <p class="fs-4">
+                            GenG đồng tình về lý do khó tin của T1 về việc không thể tập luyện cho vòng loại CKTG
+                        </p>
+                        <p class="text-danger" style="font-size: 15px;color: #777;">
+                            Khám phá - 03/11/2023, 10:46
+                        </p>
+                        <div style="font-size: 20px;font-weight: 400;">
+                            Tại CKTG 2023 Gen.G - đội tuyển đình đám của LCK (Liên Minh Huyền Thoại Hàn Quốc), đã đồng
+                            tình vài lý do khó tin khi họ không thể thực hiện tập luyện chuẩn bị cho vòng loại của T1.
+                        </div>
+                    </div>
+                </div>
+                <hr style="color: black;">
+                <div class="row text-dark d-flex align-items-center">
+                    <div class="col-md-5">
+                        <img width="100%" height="230px"
+                            src="./image/Image1/chovy-van-thieu-mot-dieu-quan-trong-du-co-nhieu-thanh-tuu-tai-cktg-2023-234023.webp"
+                            alt="">
+                    </div>
+                    <div class="col-md-7">
+                        <p class="fs-4">Cúp vô địch CKTG chính là cột mốc quan trọng cuối cùng trong sự nghiệp của Chovy
+                        </p>
+                        <p class="text-danger" style="font-size: 15px;color: #777;">
+                            Khám phá - 03/11/2023, 10:32
+                        </p>
+                        <div style="font-size: 20px;font-weight: 400;">
+                            Chovy, ngôi sao của Gen.G tại CKTG 2023, đã đánh dấu nhiều thành tựu. Tuy nhiên, một điều
+                            quan trọng vẫn còn thiếu trong sự nghiệp của anh.
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="text-center">
+                    <button type="button" class="btn btn-outline btn-primary btn-lg fw-bold">Trang 1</button>
+                    <button type="button" class="btn btn-outline btn-white btn-lg fw-bold">Trang sau</button>
+                </div>
+                <br>
+            </div>
+            <div class="col-md-4">
+                <i class="fa-solid fa-chart-column" style="color:#0d6efd;"></i> XEM NHIỀU NHẤT
+                <img class="my-2" width="100%"
+                    src="./image/Image1/naruto-su-khac-biet-giua-cac-loai-rinnegan-noi-bat-nhat-140055.webp" alt="">
+                <p class="fs-4 text-dark">
+                    LMHT: Top những vị tướng có thể xoay chuyển cục diện trong giao tranh tổng
+                </p>
+                <p class="text-danger" style="font-size: 15px;color: #777;">
+                    Esports 06/11/2023 - 14:28
+                </p>
+                <div style="font-size: 15px;font-weight: 400;color: black;">
+                    Trong LMHT, có những vị tướng sở hữu những kĩ năng có thể xoay chuyển cục diện của một pha giao
+                    tranh lớn và ảnh hưởng đến kết quả trận đấu trong những thời khắc quan trọng.
+                </div>
+                <hr style="color: black;">
+                <div class="row text-dark my-3 d-flex align-items-center">
+                    <div class="col">
+                        <img width="100%"
+                            src="./image/Image1/lien-quan-mobile-lauriel-tro-thanh-thien-than-gay-canh-khi-gap-nhung-cai-ten-nay-tai-mua-s4--2023-050526.webp"
+                            alt="">
+                    </div>
+                    <div class="col fs-6">
+                        Liên Quân Mobile: Lauriel trở thành 'thiên thần gãy cánh' khi gặp những cái tên này tại mùa S4 -
+                        2023
+                    </div>
+                </div>
+                <hr style="color: black;">
+                <div class="row text-dark my-3 d-flex align-items-center">
+                    <div class="col">
+                        <img width="100%"
+                            src="./image/Image1/dragon-ball-top-5-lan-whis-flex-suc-manh-co-mot-quyen-nang-ngang-ngua-ngoc-rong-212312.webp"
+                            alt="">
+                    </div>
+                    <div class="col fs-6">
+                        Dragon Ball: Top 5 lần Whis 'flex' sức mạnh, có một 'quyền năng' ngang ngửa Ngọc Rồng
+                    </div>
+                </div>
+                <hr style="color: black;">
+                <div class="row text-dark my-3 d-flex align-items-center">
+                    <div class="col">
+                        <img width="100%"
+                            src="./image/Image1/one-piece-5-nhan-vat-can-danh-thuc-haki-ngay-lap-tuc-172600.webp"
+                            alt="">
+                    </div>
+                    <div class="col fs-6">
+                        One Piece: Top 5 nhân vật cần 'đánh thức Haki' ngay lập tức
+                    </div>
+                </div>
+                <hr style="color: black;">
+                <div class="row text-dark my-3 d-flex align-items-center">
+                    <div class="col">
+                        <img width="100%"
+                            src="./image/Image1/naruto-5-ninja-uu-tu-nhung-khong-xuat-than-tu-gia-toc-hien-hach-hokage-de-tu-chiem-mot-slot-152548.webp"
+                            alt="">
+                    </div>
+                    <div class="col fs-6">
+                        Naruto: 5 Ninja ưu tú nhưng không xuất thân từ gia tộc hiển hách, Hokage Đệ Tứ chiếm một slot
+                    </div>
+                </div>
+                <hr style="color: black;">
+                <div class="row text-dark my-3 d-flex align-items-center">
+                    <div class="col">
+                        <img width="100%"
+                            src="./image/Image1/tao-hinh-cua-denji-trong-chainsaw-man-chua-phai-khet-nhat-nhm-thich-thu-van-lan-voi-fanart-denji-trong-nhieu-anime-khac-162043.webp"
+                            alt="">
+                    </div>
+                    <div class="col fs-6">
+                        Tạo hình của Denji trong Chainsaw Man chưa phải 'khét' nhất: NHM thích thú 'vạn lần' với fanart
+                        Denji trong nhiều anime khác
+                    </div>
+                </div>
+                <hr style="color: black;">
+                <div class="row text-dark my-3 d-flex align-items-center">
+                    <div class="col">
+                        <img width="100%"
+                            src="./image/Image1/naruto-hidan-la-thanh-vien-duy-nhat-cua-akatsuki-chua-tung-gap-mat-naruto-150847.webp"
+                            alt="">
+                    </div>
+                    <div class="col fs-6">
+                        Naruto: Hidan là thành viên duy nhất của Akatsuki chưa từng gặp mặt Naruto
+                    </div>
+                </div>
+                <hr style="color: black;">
+                <div class="row text-dark my-3 d-flex align-items-center">
+                    <div>
+                        <img width="100%" height="420px"
+                            src="./image/358556641_666064348886633_6348798008228505668_n.jpg" alt="">
+                        <p class="text-center" style="color:#777; font-size: 15px;">Quảng cáo của Google</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container body3">
+        <i class="fa-solid fa-chart-line" style="color:#0d6efd;"></i> BÍ ẨN GAME
+        <div class="row my-3">
+            <div class="col-md-4">
+                <img class="my-2" width="100%"
+                    src="./image/Image1/cua-hang-tranh-thu-an-theo-diablo-ban-60-trieu-moi-cai-mat-na-van-chay-hang-085651.jpg"
+                    alt="">
+                <h3 class="text-dark my-2">Cửa hàng tranh thủ ăn theo Diablo, bán 60 triệu mỗi cái mặt nạ vẫn cháy hàng
+                </h3>
+                <p class="text-danger" style="font-size: 15px;color: #777;">
+                    Bí ẩn game - 03/11/2023, 11:36
+                </p>
+                <div style="color: black;font-size: 18px;font-weight: 400;">
+                    Câu chuyện đằng sau chiếc mặt nạ này là gì và tại sao nó đã gây sốt với giá trị lên đến 60 triệu.
+                    Bạn đã sẵn lòng bước vào thế giới Diablo 4 chưa?
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="my-2" width="100%"
+                    src="./image/Image1/lmhtthay-ao-cho-summoners-rift-voi-loat-custom-map-do-game-thu-tu-lam-232531.webp"
+                    alt="">
+                <h3 class="text-dark my-2">LMHT: Tổng hợp 5 mod custom cho Summoner's Rift đẹp nhất do game thủ tự làm
+                </h3>
+                <p class="text-danger" style="font-size: 15px;color: #777;">
+                    Bí ẩn game - 23/07/2023, 01:04
+                </p>
+                <div style="color: black;font-size: 18px;font-weight: 400;">
+                    Summoner's Rift nơi diễn ra các trận chiến căng thẳng trong đấu trưởng công lý là nơi vô cùng quen
+                    thuộc với nhiều game thủ LMHT, liệu bạn có bao giờ cảm thấy nhàm chán vì phải chơi đi chơi lại một
+                    bản đồ không?
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="my-2" width="100%"
+                    src="./image/Image1/lmht-skin-viego-tinh-vo-rat-giong-voi-1-nhan-vat-huyen-thoai-anime-201853.webp"
+                    alt="">
+                <h3 class="text-dark my-2">LMHT: Skin Viego Tinh Võ rất giống với 1 nhân vật huyền thoại Anime
+                </h3>
+                <p class="text-danger" style="font-size: 15px;color: #777;">
+                    Bí ẩn game - 20/07/2023, 10:27
+                </p>
+                <div style="color: black;font-size: 18px;font-weight: 400;">
+                    Mới đây qua một vài hình ảnh giới thiệu cho trang phục Viego Tinh Võ, nhiều game thủ đã tinh ý nhận
+                    ra sự tương đồng giữa trang phục này với một nhân vật anime rất nổi tiếng trong bộ anime "những cuộc
+                    phiêu lưu kì bí của Jojo".
+                </div>
+            </div>
+        </div>
+        <div class="row my-4">
+            <div class="col-md-4">
+                <img class="my-2" width="100%"
+                    src="./image/Image1/lo-dien-tua-game-nhap-vai-moi-baldurs-gate-gay-kinh-ngac-voi-17000-cai-ket-khac-nhau-133138.webp"
+                    alt="">
+                <h3 class="text-dark my-2">Baldur’s Gate 3: Tựa game nhập vai với 17000 cái kết khác
+                    nhau
+                </h3>
+                <p class="text-danger" style="font-size: 15px;color: #777;">
+                    Bí ẩn game - 19/07/2023, 13:30
+                </p>
+                <div style="color: black;font-size: 18px;font-weight: 400;">
+                    Baldur’s Gate 3: Mới đây một nhân viên của Larian Studios tiết lộ rằng Baldur’s Gate 3 có thể sẽ sở
+                    hữu đến 17.000 cái kết khác nhau, bổ sung thêm vào tính chơi lại của tựa game này.
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="my-2" width="100%"
+                    src="./image/Image1/lmht-cach-kiem-tra-so-tien-ban-da-nap-cho-lmht-134220.webp" alt="">
+                <h3 class="text-dark my-2">Cách kiểm tra số tiền bạn đã nạp cho LMHT
+                </h3>
+                <p class="text-danger" style="font-size: 15px;color: #777;">
+                    Bí ẩn game - 14/07/2023, 15:45
+                </p>
+                <div style="color: black;font-size: 18px;font-weight: 400;">
+                    Bạn đã từng mua bao nhiêu bộ skin trong LMHT? Liệu rằng nếu không nạp vào LMHT thì bạn có giàu hơn
+                    không,vậy hãy cùng tìm hiểu cách xem tổng số tiền bạn đã nạp vào LMHT nhé.
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="my-2" width="100%"
+                    src="./image/Image1/god-of-war-ragnarok-dieu-gi-se-xay-ra-voi-thanh-kiem-blades-of-chaos-neu-kratos-hi-sinh-201411.webp"
+                    alt="">
+                <h3 class="text-dark my-2">God of War Ragnarok: Thanh kiếm Blades Chaos?</h3>
+                <p class="text-danger" style="font-size: 15px;color: #777;">
+                    Bí ẩn game - 17/01/2023, 08:20
+                </p>
+                <div style="color: black;font-size: 18px;font-weight: 400;">
+                    Blades of Chaos là món vũ khí biểu tượng của Kratos kể từ lần đầu xuất hiện trong God of War 2018
+                    cho tới nay. Vậy món vũ khí này sẽ ra sao nếu chẳng may một ngày Kratos hi sinh?
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <button type="button" class="btn btn-outline btn-primary btn-lg fw-bold">
+                Xem thêm <i class="fa-solid fa-right-long" style="color: #ffffff;"></i>
+            </button>
+        </div>
+        <br>
+    </div>
+
+    <div class="container body3">
+        <i class="fa-solid fa-chart-line" style="color:#0d6efd;"></i> STREAMER
+        <div class="row my-3">
+            <div class="col-md-4">
+                <img class="my-2" width="100%"
+                    src="./image/Image1/nu-streamer-bi-chi-trich-gay-gat-khi-gia-vo-bao-voi-fan-rang-ban-than-co-tin-vui-175907.jpg"
+                    alt="">
+                <h3 class="text-dark my-2">Nữ streamer bị chỉ trích gay gắt khi giả vờ báo với fan rằng ‘bản thân có tin
+                    vui’</h3>
+                <p class="text-danger" style="font-size: 15px;color: #777;">
+                    Streamer - 02/07/2022, 07:03
+                </p>
+                <div style="color: black;font-size: 18px;font-weight: 400;">
+                    Vốn nghĩ là một trò đùa nhưng nữ streamer lại đối mặt với làn sóng chỉ trích vô cùng dữ dội, tuy
+                    nhiên cô nàng lại không hề muốn tiếp nhận những ý kiến này.
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="my-2" width="100%"
+                    src="./image/Image1/streamer-vua-nap-350-trieu-dong-vao-diablo-immortal-hom-truoc-nay-da-bo-ca-game-165641.webp"
+                    alt="">
+                <h3 class="text-dark my-2">Streamer vừa nạp 350 triệu đồng vào Diablo Immortal hôm trước nay đã bỏ cả
+                    game</h3>
+                <p class="text-danger" style="font-size: 15px;color: #777;">
+                    Streamer - 29/06/2022, 08:05
+                </p>
+                <div style="color: black;font-size: 18px;font-weight: 400;">
+                    Chính Quin69 cũng sốc khi tựa game này hút máu người chơi đến nỗi nam streamer tuyên bố rằng bản
+                    thân sẽ không bao giờ đụng vào tựa game này nữa.
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="my-2" width="100%"
+                    src="./image/Image1/nu-streamer-gap-ngay-su-co-nghiem-trong-khi-nau-an-tren-song-livestream-163235.webp"
+                    alt="">
+                <h3 class="text-dark my-2">Nữ streamer gặp ngay sự cố nghiêm trọng khi nấu ăn trên sóng livestream
+                </h3>
+                <p class="text-danger" style="font-size: 15px;color: #777;">
+                    Streamer - 20/06/2022, 09:04
+                </p>
+                <div style="color: black;font-size: 18px;font-weight: 400;">
+                    Sau khi thể hiện tài nấu ăn ngay trên sóng truyền hình, nữ streamer này đã gặp sự cố với chảo dầu
+                    khiến cô đã bị thương một phần ở tay.
+                </div>
+            </div>
+        </div>
+        <div class="row my-4">
+            <div class="col-md-4">
+                <img class="my-2" width="100%"
+                    src="./image/Image1/nhieu-streamer-gap-rac-roi-lon-sau-khi-duoc-nguoi-ham-mo-donate-160359.webp"
+                    alt="">
+                <h3 class="text-dark my-2">Nhiều streamer gặp rắc rối lớn sau khi được người hâm mộ donate</h3>
+                <p class="text-danger" style="font-size: 15px;color: #777;">
+                    Streamer - 19/06/2022, 13:10
+                </p>
+                <div style="color: black;font-size: 18px;font-weight: 400;">
+                    Dù là hành động tự nguyện để thể hiện sự yêu mến của mình dành cho các streamer, nhưng nhiều trường
+                    hợp các streamer đã gặp rắc rối chỉ vì được donate.
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="my-2" width="100%"
+                    src="./image/Image1/nu-streamer-hom-truoc-vua-than-co-don-hom-sau-da-bi-fan-cuong-quay-roi-152844.webp"
+                    alt="">
+                <h3 class="text-dark my-2">Nữ streamer hôm trước vừa than cô đơn, hôm sau đã bị fan cuồng quấy rối
+                </h3>
+                <p class="text-danger" style="font-size: 15px;color: #777;">
+                    Streamer - 14/06/2022, 09:30
+                </p>
+                <div style="color: black;font-size: 18px;font-weight: 400;">
+                    Đây quả là minh chứng của câu nói "cái miệng hại cái thân', có lẽ sau sự việc trên, nữ streamer từ
+                    nay đã không còn bâng quơ 'thả thính online' nữa.
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="my-2" width="100%"
+                    src="./image/Image1/nu-streamer-doi-nghe-sang-lam-gia-su-tieng-anh-bong-choc-noi-tieng-171909.webp"
+                    alt="">
+                <h3 class="text-dark my-2">Nữ streamer đổi nghề sang làm gia sư tiếng Anh bỗng chốc nổi tiếng</h3>
+                <p class="text-danger" style="font-size: 15px;color: #777;">
+                    Streamer - 12/06/2022, 20:00
+                </p>
+                <div style="color: black;font-size: 18px;font-weight: 400;">
+                    Trường hợp hi hữu này của nữ streamer đúng là biểu hiện cho câu nói 'trong cái khó ló cái khôn',
+                    cũng từ đây, cô nàng đã xây dựng được một lượng fan cho mình.
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <button type="button" class="btn btn-outline btn-primary btn-lg fw-bold">
+                Xem thêm <i class="fa-solid fa-right-long" style="color: #ffffff;"></i>
+            </button>
+        </div>
+        <br>
+    </div>
+    <!-- Footer -->
+    <div class="container-fluid footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img width="90%" height="auto"
+                        src="./image/Z (301 × 71 px) (301 × 80 px) (301 × 100 px) (301 × 150 px).png" alt="">
+                    <p class="fs-6">
+                        TechZenz là nguồn tin đáng tin cậy dành cho tất cả những ai đam mê sự phát triển không ngừng
+                        của
+                        công nghệ. Chúng tôi cam kết mang đến cho bạn những bản tin nhanh nhất về các sản phẩm và xu
+                        hướng mới, cùng với những bài phân tích sâu sắc và đánh giá chất lượng.
+                    </p>
+                </div>
+                <div class="col-md-3 my-2">
+                    Về chúng tôi
+                    <p class="fs-6">
+                        Địa chỉ: 105 Thụy Khuê, Tây Hồ, Hà Nội
+                        <br>
+                        Email: loc2003k22@gmail.com
+                        <br>
+                        Giờ làm việc: 08H – 20H Tất cả các ngày trong tuần
+                        <br>
+                        Theo dõi Techzenz tại:
+                        <br>
+                        <i class="fa-brands fa-facebook fa-2xl my-4" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-facebook-messenger fa-2xl" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-youtube fa-2xl" style="color: #ffffff;"></i>
+                    </p>
+                </div>
+                <div class="col-md-3 my-2">
+                    Liên hệ quảng cáo
+                    <p class="fs-6">
+                        Hotline: 0918211965
+                        <br>
+                        Email: loc2003k22@gmail.com
+                        <br>
+                        Hỗ trợ & CSKH:105 Thụy Khuê, Tây Hồ, Hà Nội
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.7613856276735!2d105.8223590759184!3d21.042231487314545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab08e6f12cc7%3A0x9fd4121c1b27fcea!2zMTA1IMSQLiBUaOG7pXkgS2h1w6osIFRodeG7tSBLaHXDqiwgVMOieSBI4buTLCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1698333285525!5m2!1svi!2s"
+                            width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </p>
+                </div>
+                <div class="col-md-3 my-2">
+                    Theo dõi
+                    <p class="fs-6">
+                        Theo dõi Techzenz để cập nhật tin tức Game và Esports mới nhất
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
