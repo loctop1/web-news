@@ -23,9 +23,6 @@ background-color: red;
     font-weight: bold;
     color: #0d6efd;
 }
-.middle-content{
-
-}
 .right-content{
     font-size: 22px;
     font-weight: bold;
@@ -73,5 +70,10 @@ background-color: red;
     height: auto;
     color: white;
     font-size: 30px;
+  }
+  .content-bar{
+    height: 100%;
+    position: sticky;
+    top: 120px;
   }
 

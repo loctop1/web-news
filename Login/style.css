@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family:'Roboto';
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 10px;
+    font-size: 14px;
+    height: auto;
+}
+.nav-item i {
+    margin-top:20px;
+    cursor: pointer;
+}
+.navbar-nav a {
+    margin-right: 20px; /* Điều chỉnh giá trị này để thay đổi khoảng cách giữa các thẻ <a> */
+}
+.navbar-nav a:hover {
+background-color: red;
+}
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+.footer{
+    background-color: #0d6efd;
+    height: auto;
+    color: white;
+    font-size: 30px;
+  }
+  .content-bar{
+    height: 100%;
+    position: sticky;
+    top: 120px;
+  }

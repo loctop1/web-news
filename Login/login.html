@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Đăng Nhập</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="menu sticky-top">
+        <nav class="navbar-expand-lg navbar bg-primary container-fluid" data-bs-theme="dark">
+            <div class="main-menu container">
+                <a class="navbar-brand" href="/Home/Home.html" []>
+                    <img width="250px" height="90px"
+                        src="./image/Z (301 × 71 px) (301 × 80 px) (301 × 100 px) (301 × 150 px).png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav fw-bold">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/Home/Home.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="/NEWS/News.html">NEWS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="/ESPORTS/Esports.html">ESPORTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="/Anime/Anime.html">ANIME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/GIẢI TRÍ ZENZ/Genz.html">GIẢI TRÍ
+                                GENZ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="/KHÁM PHÁ/Khampha.html">KHÁM PHÁ</a>
+                        </li>
+                        <li class="nav-item">
+                            <i class="fa-solid fa-magnifying-glass fa-lg" style="color: #ffffff;"></i>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light mx-3 text-uppercase" href="/Login/login.html">Đăng nhập</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light mx-3 text-uppercase" href="/Register/register.html">Đăng
+                                ký</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <section class="vh-100">
+        <div class="container-fluid h-custom">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-md-9 col-lg-6 col-xl-5">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
+                        class="img-fluid" alt="Ảnh Mẫu">
+                </div>
+                <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+                    <form>
+                        <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
+                            <p class="lead fw-normal mb-0 me-3">Đăng nhập bằng</p>
+                            <button type="button" class="btn btn-primary btn-floating mx-1">
+                                <i class="fab fa-facebook-f"></i>
+                            </button>
+
+                            <button type="button" class="btn btn-primary btn-floating mx-1">
+                                <i class="fab fa-twitter"></i>
+                            </button>
+
+                            <button type="button" class="btn btn-primary btn-floating mx-1">
+                                <i class="fab fa-linkedin-in"></i>
+                            </button>
+                        </div>
+
+                        <div class="divider d-flex align-items-center my-4">
+                            <p class="text-center fw-bold mx-3 mb-0">Hoặc</p>
+                        </div>
+
+                        <!-- Ô nhập Email -->
+                        <div class="form-outline mb-4">
+                            <input type="email" id="form3Example3" class="form-control form-control-lg"
+                                placeholder="Nhập địa chỉ email hợp lệ" />
+                            <label class="form-label" for="form3Example3">Địa chỉ Email</label>
+                        </div>
+
+                        <!-- Ô nhập Mật khẩu -->
+                        <div class="form-outline mb-3">
+                            <input type="password" id="form3Example4" class="form-control form-control-lg"
+                                placeholder="Nhập mật khẩu" />
+                            <label class="form-label" for="form3Example4">Mật khẩu</label>
+                        </div>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <!-- Checkbox -->
+                            <div class="form-check mb-0">
+                                <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
+                                <label class="form-check-label" for="form2Example3">
+                                    Nhớ tôi
+                                </label>
+                            </div>
+                            <a href="#!" class="text-body">Quên mật khẩu?</a>
+                        </div>
+
+                        <div class="text-center text-lg-start mt-4 pt-2">
+                            <button type="button" class="btn btn-primary btn-lg"
+                                style="padding-left: 2.5rem; padding-right: 2.5rem;">Đăng nhập</button>
+                            <p class="small fw-bold mt-2 pt-1 mb-0">Chưa có tài khoản? <a href="#!"
+                                    class="link-danger">Đăng ký</a></p>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="container-fluid footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img width="90%" height="auto"
+                            src="./image/Z (301 × 71 px) (301 × 80 px) (301 × 100 px) (301 × 150 px).png" alt="">
+                        <p class="fs-6">
+                            TechZenz là nguồn tin đáng tin cậy dành cho tất cả những ai đam mê sự phát triển không ngừng
+                            của
+                            công nghệ. Chúng tôi cam kết mang đến cho bạn những bản tin nhanh nhất về các sản phẩm và xu
+                            hướng mới, cùng với những bài phân tích sâu sắc và đánh giá chất lượng.
+                        </p>
+                    </div>
+                    <div class="col-md-3 my-2">
+                        Về chúng tôi
+                        <p class="fs-6">
+                            Địa chỉ: 105 Thụy Khuê, Tây Hồ, Hà Nội
+                            <br>
+                            Email: loc2003k22@gmail.com
+                            <br>
+                            Giờ làm việc: 08H – 20H Tất cả các ngày trong tuần
+                            <br>
+                            Theo dõi Techzenz tại:
+                            <br>
+                            <i class="fa-brands fa-facebook fa-2xl my-4" style="color: #ffffff;"></i>
+                            <i class="fa-brands fa-facebook-messenger fa-2xl" style="color: #ffffff;"></i>
+                            <i class="fa-brands fa-youtube fa-2xl" style="color: #ffffff;"></i>
+                        </p>
+                    </div>
+                    <div class="col-md-3 my-2">
+                        Liên hệ quảng cáo
+                        <p class="fs-6">
+                            Hotline: 0918211965
+                            <br>
+                            Email: loc2003k22@gmail.com
+                            <br>
+                            Hỗ trợ & CSKH:105 Thụy Khuê, Tây Hồ, Hà Nội
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.7613856276735!2d105.8223590759184!3d21.042231487314545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab08e6f12cc7%3A0x9fd4121c1b27fcea!2zMTA1IMSQLiBUaOG7pXkgS2h1w6osIFRodeG7tSBLaHXDqiwgVMOieSBI4buTLCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1698333285525!5m2!1svi!2s"
+                                width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </p>
+                    </div>
+                    <div class="col-md-3 my-2">
+                        Theo dõi
+                        <p class="fs-6">
+                            Theo dõi Techzenz để cập nhật tin tức Game và Esports mới nhất
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-primary">
+            <div
+                class="container d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 ">
+                <!-- Bản quyền -->
+                <div class="text-white mb-3 mb-md-0">
+                    Bản quyền © 2023. Đã đăng ký mọi quyền.
+                </div>
+                <!-- Bản quyền -->
+
+                <!-- Phải -->
+                <div>
+                    <a href="#!" class="text-white me-4">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#!" class="text-white me-4">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#!" class="text-white me-4">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="#!" class="text-white">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <!-- Phải -->
+            </div>
+        </div>
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -47,3 +47,8 @@ background-color: red;
     color: white;
     font-size: 30px;
   }
+  .content-bar{
+    height: 100%;
+    position: sticky;
+    top: 120px;
+  }
